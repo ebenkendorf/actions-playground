@@ -15,8 +15,7 @@ jobs:
   imprime_data_windows:
     name: Imprime data atual - Windows
     runs-on: windows-latest
-    needs: imprime_data_ubuntu
-    
+        
     steps:
       - name: Imprime data atual
         run: date
@@ -24,8 +23,7 @@ jobs:
   imprime_data_macos:
     name: Imprime data atual - MACOS
     runs-on: macos-latest
-    needs: imprime_data_windows
-    
+        
     steps:
       - name: Imprime data atual
         run: date  
