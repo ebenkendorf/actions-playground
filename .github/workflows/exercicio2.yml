@@ -4,7 +4,7 @@ on:
   push:
 
 jobs:
-  checkout_code:
+  checkout:
     name: Faz check out do codigo
     runs-on: ubuntu-latest
     steps:
