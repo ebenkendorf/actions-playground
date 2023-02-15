@@ -4,8 +4,9 @@ on:
   push:
 
 jobs:
+
   checkout_code:
-    name: Faz Check Out do código
+    name: Faz check out do codigo
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
