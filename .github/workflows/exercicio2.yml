@@ -2,9 +2,9 @@ name: Aula 2 Exercicio 2
 
 on:
   push:
-  
+
 jobs:
-  check_out_code:
+  checkout_code:
     name: Faz Check Out do código
     runs-on: ubuntu-latest
     steps:
